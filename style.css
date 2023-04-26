@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.bottom {
+    background-color: blue;
+    padding: 10px;
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    color: #502b1b;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 100px;
+}
+.integrantes ul {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.integrantes ul li{
+    padding: 2px;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    nav li {
+        margin: 10px 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+
+
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+    }
+    .integrantes ul {
+        padding: 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+    }
+    .integrantes ul li{
+        padding: 2px;
+    }
+
+}
+#map {
+    height: 100%;
+  }
