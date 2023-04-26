@@ -10,7 +10,6 @@
     margin: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 470px;
     border: solid 2px black;
@@ -41,7 +40,8 @@ h2 {
 }
 
 p {
-    margin: 5px 20px;
+    height: 130px;
+    margin: auto 20px;
     text-align: justify;
 }
 

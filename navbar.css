@@ -1,0 +1,45 @@
+.top {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.bottom {
+    background-color: blue;
+    padding: 10px;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    nav li {
+        margin: 10px 10px;
+    }
+
+}
