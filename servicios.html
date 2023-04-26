@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="map.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tarjetas.css">
     <title>Turismo Extremo Sur</title>
 </head>
 
@@ -27,10 +27,34 @@
             </div>
         </nav>
     </header>
-    <div id="map"></div>
-    <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4nVbE8LoBJgRqjB2zzbLbq59DtqnuDlE&callback=initMap">
-</script>
+    <div class="tarjetas">
+        <div class="tarjeta">
+            <img src="img/monte-tarn.jpg" alt="Monte Tarn">
+            <h2>Caminata al Monte Tarn</h2>
+            <p>¡Bienvenidos a la impresionante caminata al Monte Tarn! Esta excursión es perfecta para
+                aquellos que quieren experimentar la belleza natural de la Patagonia Chilena. Durante la caminata,
+                podrás admirar la majestuosidad de los Andes, rodeado de flora y fauna autóctona. El precio por persona
+                para esta actividad es de CLP 50.000. ¡Prepárate para una experiencia inolvidable!</p>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74442.03345166508!2d-71.10727693972154!3d-53.75882246618584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdad5a552b36cba7%3A0x9e008f3ea110f02a!2sMonte%20Tarn!5e1!3m2!1ses!2scl!4v1682472291589!5m2!1ses!2scl"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="tarjeta">
+            <img src="img/monte-tarn.jpg" alt="Monte Tarn">
+            <h2>Caminata a Parrillar</h2>
+            <p>Si eres un amante de la comida al aire libre y te encanta caminar, ¡la caminata al Parrillar es la
+                actividad perfecta para ti! Disfruta de una caminata a través de hermosos paisajes hasta llegar a un
+                lugar especial donde prepararemos una deliciosa parrilla en la Patagonia Chilena. El precio por persona
+                para esta experiencia gastronómica y natural es de CLP 60.000. ¡Únete a nosotros y saborea lo mejor de
+                la Patagonia!</p>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d34698.25099334533!2d-71.28832168584825!3d-53.41356564245316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparrillar!5e1!3m2!1ses!2scl!4v1682482093278!5m2!1ses!2scl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
 </body>
 
 </html>

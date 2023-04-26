@@ -8,7 +8,6 @@ body {
     flex-direction: column;
 
 }
-
 .top {
     display: flex;
     justify-content: center;
@@ -97,6 +96,3 @@ nav a {
     }
 
 }
-#map {
-    height: 100%;
-  }
