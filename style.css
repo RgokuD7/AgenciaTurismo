@@ -4,11 +4,9 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    overflow-x: hidden;
 
 }
-
 .titulo {
     text-align: center;
     padding: 10px;
