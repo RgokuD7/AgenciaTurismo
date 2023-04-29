@@ -12,37 +12,3 @@ body {
     padding: 10px;
 }
 
-.integrantes {
-    display: flex;
-    flex-direction: row;
-    padding: 20px 100px;
-}
-.integrantes ul {
-    padding: 20px;
-    background-color: blue;
-    color: white;
-    border-radius: 10px;
-}
-.integrantes ul li{
-    padding: 2px;
-}
-
-@media screen and (max-width: 1100px) {
-
-
-    .integrantes {
-        display: flex;
-        flex-direction: column;
-        padding: 100px;
-    }
-    .integrantes ul {
-        padding: 20px;
-        background-color: blue;
-        color: white;
-        border-radius: 10px;
-    }
-    .integrantes ul li{
-        padding: 2px;
-    }
-
-}

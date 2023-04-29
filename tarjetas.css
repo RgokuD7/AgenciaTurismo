@@ -28,7 +28,7 @@
 }
 
 .mapa {
-    margin: 5px 5px 0 5px;
+    margin-top: 5px;
     width: 100%; 
     height: auto; 
     border-bottom-left-radius: 1rem;
@@ -50,23 +50,12 @@ p {
 img {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    max-width: 100%; 
+    width: 100%; 
     height: auto; 
 }
 
 @media screen and (max-width: 600px) {
-
     .tarjetas {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        grid-gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
-
-    .tarjeta {
-        max-width: 100%; 
-        height: auto; 
-    }
-
-}
+  }

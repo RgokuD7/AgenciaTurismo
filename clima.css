@@ -1,0 +1,23 @@
+.clima-hoy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.lista-clima{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-items: center;
+    grid-gap: 1.5rem;
+    padding: 40px;
+}
+.dia{
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .tarjetas {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+  }

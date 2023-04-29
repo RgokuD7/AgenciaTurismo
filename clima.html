@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="clima.css">
     <title>Turismo Extremo Sur</title>
 </head>
+
 <body>
     <header>
         <nav>
-          <div class="top">
-            <a href="index.html"><img class="logo" src="img/logo.jpg" alt="LOGO"></a>
-          </div>
-          <div class="bottom">
-            <ul class="menu">
-                <li><a href="nosotros.html">¿Quiénes somos?</a></li>
-                <li><a href="servicios.html">Nuestros servicios</a></li>
-                <li><a href="clima.html">Consulta el Clima</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
-            </ul>
-          </div>
+            <div class="top">
+                <a href="index.html"><img class="logo" src="img/logo.jpg" alt="LOGO"></a>
+            </div>
+            <div class="bottom">
+                <ul class="menu">
+                    <li><a href="nosotros.html">¿Quiénes somos?</a></li>
+                    <li><a href="servicios.html">Nuestros servicios</a></li>
+                    <li><a href="clima.html">Consulta el Clima</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                </ul>
+            </div>
         </nav>
-      </header>
-      <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26425.39510197999!2d-71.74314250779666!3d-34.116285000303925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663c369d5273705%3A0x302c3e1203605855!2sLitueche%2C%20O&#39;Higgins!5e0!3m2!1ses!2scl!4v1682467635747!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    
+    </header>
+    <div class="clima-hoy">
+        <h1>Punta Arenas</h1>
+    </div>
+    <div class="lista-clima"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="clima.js"></script>
 </body>
+
 </html>
