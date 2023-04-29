@@ -13,11 +13,15 @@
     padding: 40px;
 }
 .dia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0 20px;
 }
 
 @media screen and (max-width: 600px) {
-    .tarjetas {
+    .lista-clima {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
   }
