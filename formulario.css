@@ -1,0 +1,30 @@
+.formulario {
+    display: grid;
+    place-items: center;
+}
+
+form {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion {
+    flex: 1 1 auto;
+    max-width: 300px;
+    flex-basis: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    visibility: hidden;
+}
+
+.align-submit {
+    visibility: hidden;
+}

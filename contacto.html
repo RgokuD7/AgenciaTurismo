@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="formulario.css">
     <title>Turismo Extremo Sur</title>
 </head>
 <body>
@@ -24,6 +25,40 @@
           </div>
         </nav>
       </header>
-    
+      <div class="formulario">
+        <form action="#(nombre, celular, email, país, ciudad)">
+          <div class="seccion">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <div class="error" id="nomError">Digite su Nombre</div>
+          </div>
+          <div class="seccion">
+            <label for="celular">Celular</label>
+            <input type="number" name="celular" id="celular">
+            <div class="error" id="celError">Digite su Número de Telefono</div>
+          </div>
+          <div class="seccion"> 
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email">
+            <div class="error" id="emailError">Digite su Correo</div>
+          </div>
+          <div class="seccion">
+            <label for="pais">País</label>
+            <input type="text" name="pais" id="pais">
+            <div class="error" id="paisError">Introduzca su País</div>
+          </div>
+          <div class="seccion">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad">
+            <div class="error" id="ciudadError">Introduzca su Ciudad</div>
+          </div>
+          <div class="seccion">
+            <label class="align-submit">boton</label>
+            <input id="btnEnviar" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="formulario.js"></script>
 </body>
 </html>
